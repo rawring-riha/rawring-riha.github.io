@@ -5,9 +5,9 @@
 }
 
 body {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    font-family: 'Courier New', monospace;
+    background-color: #1a170f;
+    color: #e7e5e0;
+    font-family: 'Fira Code', monospace;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -47,14 +47,14 @@ h1 {
     font-size: 3rem;
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
-    color: #8ec07c;
-    text-shadow: 0 0 10px #8ec07c;
+    color: #eec35e;
+    text-shadow: 0 0 10px #eec35e;
 }
 
 h2 {
     font-size: 1.2rem;
     margin-bottom: 3rem;
-    color: #cccccc;
+    color: #e7e5e0;
     font-weight: normal;
 }
 
@@ -92,9 +92,9 @@ nav a {
 }
 
 nav a:hover {
-    border-color: #8ec07c;
+    border-color: #eec35e;
     background-color: rgba(127, 176, 105, 0.1);
-    box-shadow: 0 0 15px rgba(127, 176, 105, 0.3);
+    box-shadow: 0 0 15px rgba(239, 229, 126, 0.3);
 }
 
 .icon {
