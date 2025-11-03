@@ -56,3 +56,5 @@ theme = "terminal"
       url = "/about"
       weight = 10
 
+[markup.goldmark.renderer]
+  unsafe = true
