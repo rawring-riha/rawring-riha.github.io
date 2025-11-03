@@ -1,0 +1,58 @@
+baseURL = "https://rawring-riha.github.io"
+languageCode = "en-us"
+theme = "terminal"
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 5
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  readingTime = true
+  Toc = true
+
+[params.contact]
+  email = 'rawringriha@gmail.com'
+
+[languages.en]
+  languageName = "English"
+  title = "rawring-riha"
+  
+  [languages.en.params]
+    subtitle = "Dino who loves data and tech"
+    owner = "rawring-riha"
+    keywords = "data science, technology, programming, portfolio"
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    
+    [languages.en.params.logo]
+      logoText = "RAWRING-RIHA"
+      logoHomeLink = "/"
+
+    [[languages.en.menu.main]]
+      identifier = "projects"
+      name = "Projects"
+      url = "/projects"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "writing"
+      name = "Writing"
+      url = "/writing"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "art"
+      name = "Art"
+      url = "/art"
+      weight = 40
+    [[languages.en.menu.main]]
+      identifier = "photography"
+      name = "Photography"
+      url = "/photography"
+      weight = 50
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
+      weight = 10
+
