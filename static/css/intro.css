@@ -47,14 +47,14 @@ h1 {
     font-size: 3rem;
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
-    color: #eec35e;
-    text-shadow: 0 0 10px #eec35e;
+    color: #8ec07c;
+    text-shadow: 0 0 10px #8ec07c;
 }
 
 h2 {
     font-size: 1.2rem;
     margin-bottom: 3rem;
-    color: #e7e5e0;
+    color: #cccccc;
     font-weight: normal;
 }
 
@@ -92,9 +92,9 @@ nav a {
 }
 
 nav a:hover {
-    border-color: #eec35e;
+    border-color: #8ec07c;
     background-color: rgba(127, 176, 105, 0.1);
-    box-shadow: 0 0 15px rgba(239, 229, 126, 0.3);
+    box-shadow: 0 0 15px rgba(127, 176, 105, 0.3);
 }
 
 .icon {
