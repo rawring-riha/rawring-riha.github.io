@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/art/</loc>
+    <loc>https://rawring-riha.github.io/art/</loc>
   </url><url>
-    <loc>http://localhost:1313/photography/</loc>
+    <loc>https://rawring-riha.github.io/photography/</loc>
   </url><url>
-    <loc>http://localhost:1313/writing/</loc>
+    <loc>https://rawring-riha.github.io/writing/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://rawring-riha.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://rawring-riha.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://rawring-riha.github.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://rawring-riha.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://rawring-riha.github.io/tags/</loc>
   </url>
 </urlset>
