@@ -1,11 +1,10 @@
 ---
-title: "Projects"
+title: "Projects /.."
 readingTime: false
 Toc: false
 draft: false
 ---
 
-# Projects 🚀
 
 A curated collection of projects exploring data, systems, and storytelling through code.  
 Each project includes links to the **GitHub repo**, a **live demo** (if deployed), and a **write-up** for deeper context.  
@@ -88,11 +87,11 @@ Newest projects appear first.
   <h3>Sweetviz EDA App</h3>
   <p>An interactive web app that automates exploratory data analysis using <code>Sweetviz</code> and <code>Streamlit</code>.</p>
   <p><strong>Tech:</strong> Python, Streamlit, Pandas</p>
-  <p><em>Added:</em> Nov 2025</p>
+  <p><em>Added:</em> Oct 2025</p>
   <div class="project-buttons">
     <a href="https://github.com/rawring-riha/sweetviz_eda_app" target="_blank">GitHub</a>
-    <a href="#" target="_blank">Live Demo</a>
-    <a href="#" target="_blank">Write-up</a>
+    <a href="https://eda-sweetviz.streamlit.app/" target="_blank">Live Demo</a>
+    <a href="https://www.linkedin.com/pulse/democratising-data-social-sector-one-app-time-harikrishnan-p-rtrxc/" target="_blank">Write-up</a>
   </div>
 </div>
 
@@ -100,26 +99,23 @@ Newest projects appear first.
 <div class="project-card">
   <img src="/img/projects/ab_testing.png" alt="A/B Testing Dashboard Screenshot">
   <h3>A/B Testing Toolkit</h3>
-  <p>A streamlined toolkit for designing and analyzing A/B tests with reproducible analytics workflows and dashboards.</p>
+  <p>This project offers an interactive dashboard built in <code>Streamlit</code> that explores Airbnb listing data, simulates feature-level <code>A/B tests</code>, and monitors data quality.</p>
   <p><strong>Tech:</strong> Python, SciPy, Plotly, Flask</p>
-  <p><em>Added:</em> Sept 2025</p>
+  <p><em>Added:</em> Oct 2025</p>
   <div class="project-buttons">
     <a href="https://github.com/rawring-riha/ab_testing" target="_blank">GitHub</a>
-    <a href="#" target="_blank">Live Demo</a>
-    <a href="#" target="_blank">Write-up</a>
+    <a href="https://www.linkedin.com/pulse/bridging-social-research-data-science-running-ab-style-harikrishnan-p-0xzrc/" target="_blank">Write-up</a>
   </div>
 </div>
 
 <div class="project-card">
   <img src="/img/projects/kenya_mapper.png" alt="Kenya Travel Risk Mapper Screenshot">
   <h3>Kenya Travel Risk Mapper</h3>
-  <p>A spatial visualization tool to map and analyze travel risks across Kenya using public datasets and geospatial APIs.</p>
+  <p>A tool to map and analyze travel risks across Kenya using public datasets and APIs.</p>
   <p><strong>Tech:</strong> Python, GeoPandas, Folium, Plotly</p>
-  <p><em>Added:</em> Oct 2025</p>
+  <p><em>Added:</em> Jan 2025</p>
   <div class="project-buttons">
     <a href="https://github.com/rawring-riha/kenya-travel-risk-mapper" target="_blank">GitHub</a>
-    <a href="#" target="_blank">Live Demo</a>
-    <a href="#" target="_blank">Write-up</a>
   </div>
 </div>
 
