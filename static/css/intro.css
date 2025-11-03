@@ -97,10 +97,19 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(127, 176, 105, 0.3);
 }
 
-.icon {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+.icon img {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1); /* makes black → white */
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
 }
+
+.icon img:hover {
+  opacity: 1;
+}
+
 
 .label {
     font-size: 0.9rem;
