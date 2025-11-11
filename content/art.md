@@ -61,12 +61,11 @@ Filter by theme below to explore.
 </div>
 
 <div class="gallery">
-  <img src="/img/art/sketch_1.jpg" data-tags="sketch">
-  <img src="/img/art/digital_1.jpg" data-tags="digital">
-  <img src="/img/art/mixed_1.jpg" data-tags="mixed">
-  <img src="/img/art/sketch_2.jpg" data-tags="sketch">
-  <img src="/img/art/digital_2.jpg" data-tags="digital">
-  <img src="/img/art/mixed_2.jpg" data-tags="mixed">
+  <img src="/img/art/1.png" data-tags="sketch">
+  <img src="/img/art/2.png" data-tags="sketch">
+  <img src="/img/art/3.png" data-tags="sketch">
+  <img src="/img/art/4.png" data-tags="sketch">
+  <img src="/img/art/5.png" data-tags="sketch">
 </div>
 
 <script>
