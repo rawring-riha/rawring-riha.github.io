@@ -5,10 +5,6 @@ Toc: false
 draft: false
 ---
 
-# Photography  
-
-Light, texture, and the slow observation of place.  
-Filter by theme below to explore.
 
 ---
 

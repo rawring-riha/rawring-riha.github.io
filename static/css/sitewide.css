@@ -1,0 +1,343 @@
+/* === SITE-WIDE: Wider container & aligned header === */
+:root {
+  --site-max: 1400px;
+  --page-gutter: 48px;
+}
+
+/* Reset any theme-enforced narrow container */
+body, main, .content, .post, .page, .site-main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply consistent horizontal gutters on both sides */
+body {
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+  padding-top: 2rem;
+  box-sizing: border-box;
+}
+
+/* Constrain readable width for all content blocks */
+main, .main, .content, .post, .page, .article {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* === TERMINAL THEME HEADER FIX === */
+
+/* Keep the header full-width (spanning entire window) */
+.site-header {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+/* Align the ASCII bars, site title, and nav together */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+  box-sizing: border-box;
+}
+
+/* Make sure the ASCII bars appear next to the site title */
+.terminal-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.terminal-logo .logo-bars {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 2px;
+  white-space: pre;
+}
+
+/* Style for nav links beside the logo */
+.main-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.main-nav a {
+  margin: 0;
+}
+
+/* Responsive: stack vertically on mobile */
+@media (max-width: 800px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  .main-nav {
+    flex-wrap: wrap;
+  }
+}
+
+/* Optional: prevent text content from hugging screen edges */
+.container, .wrap, .inner {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* === Terminal Header using image-based bars === */
+.site-header {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.header-inner {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+  box-sizing: border-box;
+}
+
+/* Align name block + image horizontally */
+.terminal-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+/* The name block */
+.logo-name {
+  background: var(--accent);
+  color: var(--background);
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+/* The green bar graphic */
+.logo-bars-img {
+  height: 1.2rem; /* tweak if slightly misaligned */
+  width: auto;
+  display: inline-block;
+  transform: translateY(2px);
+}
+
+/* Navigation below */
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .terminal-logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo-bars-img {
+    transform: translateY(0);
+  }
+}
+/* === Terminal-style header graphic restoration === */
+.logo {
+  display: inline-block;
+  font-weight: 700;
+  background-image: url("/img/header.png"); /* must exist in static/img/ */
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 1.2rem;
+  color: var(--background);
+  background-color: var(--accent);
+  padding: 0.25rem 0.75rem;
+  letter-spacing: 0.5px;
+  line-height: 1.4rem;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+  box-sizing: border-box;
+}
+
+.navigation-menu {
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 800px) {
+  .header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo {
+    background-position: left bottom;
+    background-size: 80% auto;
+  }
+}
+
+/* === Timeline Section Styling === */
+.timeline-column {
+  padding: 1rem 0;
+  border-left: 2px solid var(--accent);
+  margin-left: 1.5rem;
+  position: relative;
+}
+
+.timeline-placeholder {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.timeline-entry {
+  margin-bottom: 2rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.timeline-entry::before {
+  content: "";
+  position: absolute;
+  left: -0.55rem;
+  top: 0.4rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--accent);
+  border-radius: 50%;
+}
+
+.timeline-year {
+  color: var(--muted-text, #9a9a9a) !important;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-org {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.timeline-role {
+  display: block !important; /* force a line break */
+  width: 100% !important; /* ensures full width under org */
+  font-weight: 600;
+  color: #9a9a9a !important;  
+  margin-top: 0.15rem;
+  margin-bottom: 0.4rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.timeline-org {
+  display: block !important; /* forces it to be its own row */
+  margin-bottom: 0.1rem;
+}
+
+.timeline-details {
+  color: var(--text);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* Adjust spacing on smaller screens */
+@media (max-width: 700px) {
+  .timeline-column {
+    margin-left: 0.5rem;
+    border-left-width: 1.5px;
+  }
+  .timeline-entry {
+    padding-left: 1rem;
+  }
+}
+/* === Collapsible Timeline Styling === */
+.timeline-org {
+  background: none;
+  border: none;
+  text-align: left;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.05rem;
+  line-height: 1.3;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+}
+
+.timeline-org:hover,
+.timeline-org:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+.timeline-role {
+  display: block;
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-top: 0.15rem;
+}
+
+/* Hidden by default */
+.timeline-details {
+  display: none;
+  margin-top: 0.5rem;
+  color: var(--text);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* When expanded */
+.timeline-entry.open .timeline-details {
+  display: block;
+}
+
+/* Animate the open/close smoothly */
+.timeline-details {
+  transition: all 0.3s ease;
+}
+
+.terminal-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-text {
+  background-color: var(--accent);
+  color: var(--background);
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  letter-spacing: 1px;
+}
+
+.logo-bars {
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 2px;
+  white-space: pre;
+}
+
+/* If using an image logo */
+.logo-img {
+  height: 2.2rem;
+  width: auto;
+}

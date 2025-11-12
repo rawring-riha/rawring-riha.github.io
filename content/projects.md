@@ -98,7 +98,7 @@ Newest projects appear first.
 
 <div class="project-card">
   <img src="/img/projects/ab_testing.png" alt="A/B Testing Dashboard Screenshot">
-  <h3>A/B Testing Toolkit</h3>
+  <h3>A/B Testing simulation</h3>
   <p>This project offers an interactive dashboard built in <code>Streamlit</code> that explores Airbnb listing data, simulates feature-level <code>A/B tests</code>, and monitors data quality.</p>
   <p><strong>Tech:</strong> Python, SciPy, Plotly, Flask</p>
   <p><em>Added:</em> Oct 2025</p>

@@ -10,6 +10,11 @@ theme = "terminal"
   autoCover = true
   readingTime = true
   Toc = true
+  showHeader = true
+
+[params.logo]
+logohomelink = "/"
+logotext = "RAWRING-RIHA"
 
 [params.contact]
   email = 'rawringriha@gmail.com'

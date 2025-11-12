@@ -5,11 +5,6 @@ Toc: false
 draft: false
 ---
 
-# Art  
-
-Sketches, paintings, and experiments in stillness.  
-Filter by theme below to explore.
-
 ---
 
 <style>
@@ -115,7 +110,6 @@ Filter by theme below to explore.
   <img src="/img/art/6.png" data-tags="sketch" alt="Sketch 2">
   <img src="/img/art/7.jpg" data-tags="sketch" alt="Sketch 3">
   <img src="/img/art/8.png" data-tags="sketch" alt="Sketch 4">
-  <img src="/img/art/9.png" data-tags="sketch" alt="Sketch 5">
 </div>
 
 <!-- Lightbox container -->

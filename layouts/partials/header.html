@@ -1,0 +1,20 @@
+{{ if .Site.Params.showHeader }}
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <div class="terminal-logo">
+      <a class="logo-link" href="{{ .Site.Params.logo.logohomelink | default "/" }}">
+        <span class="logo-name">{{ .Site.Params.logo.logotext | default .Site.Title }}</span>
+      </a>
+      <img class="logo-bars-img" src="{{ "img/header.png" | relURL }}" alt="terminal bars">
+    </div>
+
+    {{ if .Site.Menus.main }}
+    <nav class="main-nav" role="navigation">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+  </div>
+</header>
+{{ end }}
