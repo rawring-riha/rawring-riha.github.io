@@ -26,38 +26,104 @@
 .timeline-column {
   border-left: 2px solid var(--accent);
   padding-left: 1.5rem;
-  font-size: 0.95rem;
+}
+
+/* Entry */
+.timeline-entry {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Date */
+.timeline-year {
+  color: var(--text-secondary);
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+/* Org + Role on separate lines */
+.timeline-org {
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  text-align: left;
+}
+
+.timeline-role {
+  display: block;
+  color: var(--yellow, #f0d674);
+  font-style: italic;
+  margin-top: 0.1rem;
+}
+
+/* Accordion content */
+.timeline-details {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: 0.3rem;
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease;
+}
+
+/* Bullet points inside details */
+.timeline-details ul {
+  padding-left: 1.2rem;
+}
+
+.timeline-details li {
+  margin-bottom: 0.5rem;
+}
+
+/* When open */
+.timeline-entry.open .timeline-details {
+  max-height: 500px; /* enough space for items */
+  opacity: 1;
 }
 
 .timeline-placeholder {
   color: var(--text-secondary);
   font-style: italic;
-  opacity: 0.6;
-  margin-bottom: 1rem;
+  font-size: 1.1rem;      /* make it visually distinct */
+  opacity: 0.8;
+  margin-bottom: 1.2rem;
+  display: block;         /* prevents inline collapsing */
 }
 
-/* Entries */
-.timeline-entry { margin-bottom: 1rem; position: relative; }
-.timeline-entry::before {
-  content: '';
-  position: absolute;
-  left: -12px; top: 6px;
-  width: 8px; height: 8px;
-  border-radius: 50%;
+.cv-download a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
   background: var(--accent);
+  color: var(--background);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: background 0.2s ease;
 }
-.timeline-year { color: var(--accent); font-weight: 600; margin-bottom: 0.2rem; }
-.timeline-org { cursor: pointer; font-weight: 600; }
-.timeline-role { font-style: italic; color: var(--text-secondary); }
-.timeline-details { display: none; margin-top: 0.3rem; line-height: 1.5; }
 
-/* Trigger link */
-.timeline-trigger {
-  color: var(--accent);
-  cursor: pointer;
-  border-bottom: 1px dashed var(--accent);
+.cv-download a:hover {
+  background: var(--accent-alt);
 }
-.timeline-trigger:hover { color: var(--accent-alt); }
+
+
+
 </style>
 
 <div class="about-wrapper">
@@ -104,6 +170,11 @@ I study the human side of systems: [how organizations make meaning from informat
     - ESRI     : Spatial Data Science
     - LinkedIn : The Data Science of Nonprofit Service Organizations
 
+<div class="cv-download">
+  <a href="/files/Detailed_Resume_Harikrishnan_P.pdf" download> ↓ Download CV </a>
+</div>
+
+
 <p>If you want your organization to think in systems and act on evidence while staying deeply human — let’s collaborate.  
 <a href="mailto:rawringriha@gmail.com">Click here or copy this email ID: rawringriha@gmail.com</a></p>
 
@@ -117,11 +188,10 @@ I study the human side of systems: [how organizations make meaning from informat
     <div class="timeline-year">Jun 2025 – Present</div>
     <button class="timeline-org" aria-expanded="false">
       ShhorAI
-      <span class="timeline-role">Lead — Data & Strategy</span>
+      <span class="timeline-role">Senior Consultant (Contract) — Data & Strategy</span>
     </button>
     <div class="timeline-details">
-      Designing wellbeing frameworks and linking ecological, economic, and cultural indicators.<br>
-      Leading projects on climate resilience and indigenous restoration models.
+      Supporting analysis and creation of India’s first large-scale proprietary AI-tagged cross-platform hate speech evidence-base, contributing to an open-source report on online abuse trends.
     </div>
   </div>
 
@@ -132,8 +202,12 @@ I study the human side of systems: [how organizations make meaning from informat
       <span class="timeline-role">Senior Business Analyst</span>
     </button>
     <div class="timeline-details">
-      Built low-resource data systems connecting field and executive teams.<br>
-      Created impact evaluation frameworks and contributed to securing ~₹40M in climate and conservation grants.
+      <ul>
+        <li>Led analytics for ARR (afforestation, reforestation, restoration) projects, identifying systemic bottlenecks and boosting efficiency by 40%.</li>
+        <li>Designed Python-Snowflake dashboards to simplify complex datasets, reducing reporting time by 50% for senior leadership.</li>
+        <li>Built feedback systems that improved data quality by 60%, strengthening monitoring of sustainability indicators and executive planning.</li>
+        <li>Conducted process mapping and internal audits to bridge operations and tech, ensuring reliable reporting for C-suite executives.</li>
+      </ul>
     </div>
   </div>
 
@@ -144,8 +218,12 @@ I study the human side of systems: [how organizations make meaning from informat
       <span class="timeline-role">Lead — Grants & Impact</span>
     </button>
     <div class="timeline-details">
-      Designed M&E systems improving decision-making efficiency by 50%.<br>
-      Trained 25+ staff and developed community-led metrics for biodiversity-linked livelihoods.
+      <ul>
+        <li>Built low-resource data systems connecting field and executive teams.</li>
+        <li>Created impact evaluation frameworks and contributed to securing ~₹40M in climate and conservation grants.</li>
+        <li>Designed wellbeing frameworks and linking ecological, economic, and cultural indicators.</li>
+        <li>Lead projects on climate resilience and indigenous restoration models.</li>
+      </ul>  
     </div>
   </div>
 
@@ -156,7 +234,10 @@ I study the human side of systems: [how organizations make meaning from informat
       <span class="timeline-role">Monitoring & Evaluation Officer</span>
     </button>
     <div class="timeline-details">
-      Conducted impact evaluations, supported research publications, and led data analysis for program outcomes.
+      <ul>
+        <li>Led longitudinal research surveys of 8,000+ students to track program effectiveness.</li>
+        <li>Conducted impact evaluations, supported research publications, and led data analysis for program outcomes.</li>
+      </ul>   
     </div>
   </div>
 </div>
@@ -164,16 +245,40 @@ I study the human side of systems: [how organizations make meaning from informat
 </div>
 
 <script>
+
 document.addEventListener('DOMContentLoaded', () => {
   const entries = document.querySelectorAll('.timeline-entry');
 
   entries.forEach(entry => {
     const button = entry.querySelector('.timeline-org');
+
     button.addEventListener('click', () => {
-      const isOpen = entry.classList.toggle('open');
-      button.setAttribute('aria-expanded', isOpen);
+      const isOpen = entry.classList.contains('open');
+
+      // Close all entries
+      entries.forEach(e => e.classList.remove('open'));
+
+      // If the clicked one wasn’t open, open it
+      if (!isOpen) entry.classList.add('open');
     });
   });
 });
+
+/* Convert details text into bullet lines automatically */
+document.querySelectorAll('.timeline-details').forEach(details => {
+  
+  const raw = details.textContent.trim();
+
+  // Split by periods but keep the period
+  const lines = raw
+    .split(/(?<=\.)\s+/)  // split on period+space
+    .filter(line => line.trim().length > 0);
+
+  details.innerHTML = lines
+    .map(line => `<span>${line.trim()}</span>`)
+    .join('');
+});
+
+
 </script>
 

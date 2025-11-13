@@ -47,6 +47,18 @@ Newest projects appear first.
 .project-buttons a:hover {
   background: var(--accent-alt);
 }
+
+/* Fix button wrapping and spacing */
+.project-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;     /* spacing between all buttons */
+}
+
+.project-buttons a {
+  margin: 0;       /* remove the old margin-right */
+}
+
 </style>
 
 

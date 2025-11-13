@@ -66,8 +66,8 @@ Intersections of Hate — Chord Diagram StoryA scrollytelling data visualizatio
 
 
 
-<link rel="shortcut icon" href="https://rawring-riha.github.io/favicon.png">
-<link rel="apple-touch-icon" href="https://rawring-riha.github.io/apple-touch-icon.png">
+<link rel="shortcut icon" href="https://rawring-riha.github.io/img/favicon.png">
+<link rel="apple-touch-icon" href="https://rawring-riha.github.io/img/apple-touch-icon.png">
 
 
 <meta name="twitter:card" content="summary" />
@@ -110,34 +110,82 @@ Intersections of Hate — Chord Diagram StoryA scrollytelling data visualizatio
 
 <div class="container center">
 
-  
-<header class="site-header" role="banner">
-  <div class="header-inner">
-    <div class="terminal-logo">
-      <a class="logo-link" href="/">
-        <span class="logo-name">RAWRING-RIHA</span>
-      </a>
-      <img class="logo-bars-img" src="/img/header.png" alt="terminal bars">
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    RAWRING-RIHA
+  </div>
+</a>
+
     </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="/writing">Writing</a></li>
+        
+      
+        
+          <li><a href="/art">Art</a></li>
+        
+      
+        
+          <li><a href="/photography">Photography</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
 
     
-    <nav class="main-nav" role="navigation">
-      
-      <a href="/about">About</a>
-      
-      <a href="/projects">Projects</a>
-      
-      <a href="/writing">Writing</a>
-      
-      <a href="/art">Art</a>
-      
-      <a href="/photography">Photography</a>
-      
-    </nav>
     
   </div>
-</header>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/projects" >Projects</a></li>
+        
+      
+        
+          <li><a href="/writing" >Writing</a></li>
+        
+      
+        
+          <li><a href="/art" >Art</a></li>
+        
+      
+        
+          <li><a href="/photography" >Photography</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
 
+  
+</header>
 
 
   <div class="content">
@@ -194,6 +242,18 @@ Newest projects appear first.</p>
 .project-buttons a:hover {
   background: var(--accent-alt);
 }
+
+/* Fix button wrapping and spacing */
+.project-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;     /* spacing between all buttons */
+}
+
+.project-buttons a {
+  margin: 0;       /* remove the old margin-right */
+}
+
 </style>
 <div class="project-grid">
 <div class="project-card">
