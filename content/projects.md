@@ -71,10 +71,10 @@ Newest projects appear first.
   <p>A scrollytelling data visualization built with <code>D3.js</code> that explores the interconnected nature of online hate speech.  
   As users scroll, the chord diagram transitions through stages — highlighting how sexist, political, and communal hate speech overlap across narratives.</p>
   <p><strong>Tech:</strong> D3.js, JavaScript, HTML, CSS, Data Visualization, Scrollytelling UX</p>
-  <p><em>Added:</em> Nov 2025</p>
+  <p><em>Added:</em> Dec 2025</p>
   <div class="project-buttons">
-    <a href="https://github.com/rawring-riha/intersections-of-hate" target="_blank">GitHub</a>
-    <a href="#" target="_blank">Live Demo</a>
+    <a href="https://github.com/rawring-riha/shhor-viz" target="_blank">GitHub</a>
+    <a href="https://rawring-riha.github.io/shhor-viz/" target="_blank">Live Demo</a>
     <a href="#" target="_blank">Write-up</a>
   </div>
 </div>
