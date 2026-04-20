@@ -362,3 +362,12 @@ body {
   color: var(--accent);
   font-weight: bold;
 }
+
+/* About page: let the page's own responsive CSS breathe */
+@media (max-width: 900px) {
+  .about-wrapper {
+    padding: 1rem !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}

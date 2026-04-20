@@ -100,7 +100,7 @@
 .timeline-placeholder {
   color: var(--text-secondary);
   font-style: italic;
-  font-size: 1.1rem;      /* make it visually distinct */
+  font-size: 1.1rem;     
   opacity: 0.8;
   margin-bottom: 1.2rem;
   display: block;         /* prevents inline collapsing */
@@ -122,7 +122,13 @@
   background: var(--accent-alt);
 }
 
-
+/* Prevent horizontal overflow on mobile */
+@media (max-width: 900px) {
+  .about-wrapper {
+    overflow-x: hidden;
+    padding: 1rem;
+  }
+}
 
 </style>
 
@@ -157,12 +163,11 @@ I study the human side of systems: [how organizations make meaning from informat
     - Design feedback loops between field and leadership 
     - Translate complex analytics into operational clarity
 
-## Skills & Technologies 
-    - Programming Languages : Python, R, SQL 
-    - Data Visualization    : Matplotlib, Seaborn, Plotly, D3.js 
-    - Web Technologies      : HTML, CSS, JavaScript 
-    - Tools                 : Streamlit, Snowflake, CODA, ODK, Google App Scripts,
-                              ArcGIS, Tableau, PowerBI
+## Skills & Technologies
+- **Programming Languages:** Python, R, SQL
+- **Data Visualization:** Matplotlib, Seaborn, Plotly, D3.js
+- **Web Technologies:** HTML, CSS, JavaScript
+- **Tools:** Streamlit, Snowflake, CODA, ODK, Google App Scripts, ArcGIS, Tableau, PowerBI
 
 ## Certifications
     - Google   : Business Intelligence Certificate
@@ -269,7 +274,7 @@ document.querySelectorAll('.timeline-details').forEach(details => {
   
   const raw = details.textContent.trim();
 
-  // Split by periods but keep the period
+  
   const lines = raw
     .split(/(?<=\.)\s+/)  // split on period+space
     .filter(line => line.trim().length > 0);
