@@ -172,6 +172,14 @@
     white-space: normal !important;
   }
 }
+
+pre {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
 </style>
 
 <div class="about-wrapper">
