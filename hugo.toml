@@ -24,7 +24,6 @@ logotext = "RAWRING-RIHA"
   title = "rawring-riha"
   
   [languages.en.params]
-    subtitle = "Dino who loves data and tech"
     owner = "rawring-riha"
     keywords = "data science, technology, programming, portfolio"
     copyright = ""
