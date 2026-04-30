@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://localhost:1313/art/</loc>
   </url><url>
+    <loc>http://localhost:1313/design/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/writing/</loc>

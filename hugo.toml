@@ -4,7 +4,7 @@ theme = "terminal"
 
 [params]
   contentTypeName = "posts"
-  showMenuItems = 5
+  showMenuItems = 6
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
@@ -54,6 +54,11 @@ logotext = "RAWRING-RIHA"
       name = "Photography"
       url = "/photography"
       weight = 50
+    [[languages.en.menu.main]]
+      identifier = "design"
+      name = "Design"
+      url = "/design"
+      weight = 25 
     [[languages.en.menu.main]]
       identifier = "about"
       name = "About"
