@@ -80,18 +80,9 @@ build:
      ══════════════════════════════════════════════════════ -->
 
 <img class="design-img" src="/img/design/pangolin-sijimali/1.png" alt="Opening visual">
-<p class="design-caption">Fig. 1 — A short caption describing what this image shows.</p>
 
-<div class="design-text">
-<p>
-  This is where your opening paragraph goes. Introduce the piece — what question it asks, 
-  what context it lives in, or what you were trying to communicate visually. 
-  Keep it grounded and specific to the work.
-</p>
-<p>
-  You can have multiple paragraphs here. Write as much or as little as the piece needs.
-</p>
-</div>
+
+
 
 <hr class="design-divider">
 
@@ -101,14 +92,8 @@ build:
      ══════════════════════════════════════════════════════ -->
 
 <img class="design-img" src="/img/design/pangolin-sijimali/2.png" alt="Second visual">
-<p class="design-caption">Fig. 2 — Caption for the second image.</p>
 
-<div class="design-text">
-<p>
-  Continue the narrative here. This could be the methodology, the data story, 
-  or a deeper explanation of what the viewer is looking at in the image above.
-</p>
-</div>
+
 
 <hr class="design-divider">
 
