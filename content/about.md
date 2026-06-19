@@ -190,13 +190,12 @@ pre {
 <p>Hey!</p>
 <p>I'm Riha! You might know me as Hari/Harikrishnan.</p>
 
-<p>I am a part anthropologist, part systems thinker, and full-time translator between people, data, and decisions. My journey in technology is driven by curiosity and a love for solving complex problems with data.</p>
+<p>Most of what I do sits at the overlap between data, programs, and the people running them. I help organisations understand what their information is telling them. I also build systems that make reporting and tracking easier, and I bridge the gap between people collecting data and people making decisions with it.</p>
 
-I study the human side of systems: [how organizations make meaning from information, how teams use (or ignore) data, and how decisions ripple through real-world outcomes.]() My approach blends data science, anthropology, and systems thinking to build tools that serve both insight and empathy.
+<p>I have worked across nonprofits, startups, and field programs in very different contexts. That range helps. I can move between a funder report and a ground visit, between a CEO dashboard and a field team's daily log, without losing the thread of either.</p>
 
-[I’ve worked across corporate, startup, and non-profit ecosystems, designing data systems that adapt to each context]() — from fast-paced innovation labs to grounded field programs. This breadth helps me translate across worlds: tech and operations, business and impact, boardrooms and grassroots.
-
-<p>In every setting, my goal is the same — to make data human, useful, and quietly powerful.</p>
+<p>That is one part of what I do, </p>
+<p>Another part of what I have been doing recently is focusing on creative forms of communicating about ecology, biodiversity and climate change. I create observational sketches and paintings that focuses on the "not so big" and unpopular creatures, which are often neglected"
 
 ## Areas I work in 
     - Business Intelligence & Decision Support 
@@ -205,6 +204,7 @@ I study the human side of systems: [how organizations make meaning from informat
     - Low-code solutions & Automation Workflows
     - Data Literacy Training & Change Enablement 
     - Executive Analytics & Strategic Dashboards
+    - Science Communication through Visual Art
 
 ## What I do I help organizations: 
     - Turn fragmented data into clear insights 
@@ -226,12 +226,12 @@ I study the human side of systems: [how organizations make meaning from informat
     - LinkedIn : The Data Science of Nonprofit Service Organizations
 
 <div class="cv-download">
-  <a href="/files/Detailed_Resume_Harikrishnan_P.pdf" download> ↓ Download CV </a>
+  <a href="/files/Riha_CV_General.pdf" download> ↓ Download CV </a>
 </div>
 
 
 <p>If you want your organization to think in systems and act on evidence while staying deeply human — let’s collaborate.  
-<a href="mailto:rawringriha@gmail.com">Click here or copy this email ID: rawringriha@gmail.com</a></p>
+<a href="mailto:riha.core@proton.me">Click here or copy this email ID: riha.core@proton.me</a></p>
 
 
 </div>
