@@ -103,11 +103,11 @@ draft: false
 <!-- Art gallery -->
 <div class="gallery">
   <img src="/img/art/11.jpeg" data-tags="sketch" alt="Sketch 1">
-  <img src="/img/art/21.jpeg" data-tags="sketch" alt="Sketch 2">
   <img src="/img/art/31.jpeg" data-tags="sketch" alt="Sketch 3">
   <img src="/img/art/1.jpg" data-tags="sketch" alt="Sketch 1">
   <img src="/img/art/2.png" data-tags="sketch" alt="Sketch 2">
   <img src="/img/art/3.png" data-tags="sketch" alt="Sketch 3">
+  <img src="/img/art/21.jpeg" data-tags="sketch" alt="Sketch 2">
   <img src="/img/art/4.png" data-tags="sketch" alt="Sketch 4">
   <img src="/img/art/5.jpg" data-tags="sketch" alt="Sketch 5">
   <img src="/img/art/6.png" data-tags="sketch" alt="Sketch 2">
